@@ -14,7 +14,7 @@ const projectDetail = document.querySelectorAll(".projectDetail")
 
 window.addEventListener("scroll", () => {
     let offSetY = window.scrollY;
-    if (screen.width <= 415) {
+    if (screen.width <= 430) {
         saluteTextContainer.style.transform = `translate(-${offSetY * 0.3}px, ${offSetY * 0.6}px)`
         arrowContainer.style.transform = `translateY(${offSetY * 0.6}px)`
         authorName.style.transform = `translateX(${offSetY * 0.2}px)`
