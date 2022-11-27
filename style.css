@@ -163,19 +163,19 @@
     font-size: 5vw;
     color: rgb(177, 172, 172);
     cursor: pointer;
-    transition: font-size 1s;
+    transition: transform 0.7s;
 }
 
 .twitter:hover {
-    font-size: 7vw;
+    transform: scale(1.5);
 }
 
 .github:hover {
-    font-size: 7vw;
+    transform: scale(1.5);
 }
 
 .linkedIn:hover {
-    font-size: 7vw;
+    transform: scale(1.5);
 }
 
 a {
