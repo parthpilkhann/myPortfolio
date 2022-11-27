@@ -143,6 +143,7 @@
 
 .projectDesc {
     text-align: justify;
+    margin-bottom: 5vh;
 }
 
 
@@ -153,14 +154,14 @@
     justify-content: center;
     background-image: url("./img/saluteBg.png");
     gap: 10vw;
-    padding-bottom: 5vw;
+    height: 20vh;
 }
 
 
 .twitter,
 .github,
 .linkedIn {
-    font-size: 5vw;
+    font-size: 3rem;
     color: rgb(177, 172, 172);
     cursor: pointer;
     transition: transform 0.7s;
